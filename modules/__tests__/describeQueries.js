@@ -71,6 +71,15 @@ const describeQueries = (createHistory) => {
 
         execSteps(steps, history, done)
       })
+
+      it('works with malformed URI', () => {
+        history.push({
+          pathname: '/home',
+          query: { the: '3%' }
+        })
+
+        expect(history.getCurrentLocation().query.the).toEqual('3%')
+      })
     })
 
     describe('in replace', () => {

@@ -2,7 +2,7 @@
   "name": "history",
   "version": "3.3.0",
   "description": "Manage browser history with JavaScript",
-  "repository": "ReactTraining/history",
+  "repository": "eliseumds/history",
   "author": "Michael Jackson",
   "license": "MIT",
   "main": "lib",
@@ -23,9 +23,9 @@
   },
   "dependencies": {
     "invariant": "^2.2.1",
-    "query-string": "^4.2.2",
-    "warning": "^3.0.0",
-    "loose-envify": "^1.2.0"
+    "loose-envify": "^1.2.0",
+    "query-string": "^5.0.1",
+    "warning": "^3.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.10.1",
